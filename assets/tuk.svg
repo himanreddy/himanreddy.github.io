@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -24 400 364">
+  <defs>
+    <clipPath id="tk-eclip"><circle r="32"/></clipPath>
+    <clipPath id="tk-wr"><rect x="-21" y="-40" width="42" height="80" rx="15"/></clipPath>
+    <clipPath id="tk-wf"><rect x="-25" y="-34" width="50" height="68" rx="16"/></clipPath>
+  </defs>
+  <ellipse class="t-shadow" cx="200" cy="329" rx="160" ry="11" fill="#17181C" opacity=".2"/>
+  <g class="t-puffs" fill="#FFFAF0" stroke="#17181C" stroke-width="3">
+    <circle class="pf pf1" cx="34" cy="312" r="13"/>
+    <circle class="pf pf2" cx="14" cy="288" r="9"/>
+    <circle class="pf pf3" cx="366" cy="312" r="13"/>
+    <circle class="pf pf4" cx="386" cy="288" r="9"/>
+  </g>
+  <g class="t-root">
+    <!-- rear wheels (peek out from behind the body) -->
+    <g class="t-rwheel" transform="translate(46 284)">
+      <rect x="-21" y="-40" width="42" height="80" rx="15" fill="#17181C"/>
+      <g clip-path="url(#tk-wr)"><g class="tread" stroke="#55565F" stroke-width="5" stroke-linecap="round">
+        <line x1="-30" x2="30" y1="-58" y2="-58"/><line x1="-30" x2="30" y1="-42" y2="-42"/><line x1="-30" x2="30" y1="-26" y2="-26"/><line x1="-30" x2="30" y1="-10" y2="-10"/><line x1="-30" x2="30" y1="6" y2="6"/><line x1="-30" x2="30" y1="22" y2="22"/><line x1="-30" x2="30" y1="38" y2="38"/><line x1="-30" x2="30" y1="54" y2="54"/>
+      </g></g>
+    </g>
+    <g class="t-rwheel" transform="translate(354 284)">
+      <rect x="-21" y="-40" width="42" height="80" rx="15" fill="#17181C"/>
+      <g clip-path="url(#tk-wr)"><g class="tread" stroke="#55565F" stroke-width="5" stroke-linecap="round">
+        <line x1="-30" x2="30" y1="-58" y2="-58"/><line x1="-30" x2="30" y1="-42" y2="-42"/><line x1="-30" x2="30" y1="-26" y2="-26"/><line x1="-30" x2="30" y1="-10" y2="-10"/><line x1="-30" x2="30" y1="6" y2="6"/><line x1="-30" x2="30" y1="22" y2="22"/><line x1="-30" x2="30" y1="38" y2="38"/><line x1="-30" x2="30" y1="54" y2="54"/>
+      </g></g>
+    </g>
+
+    <!-- lower body -->
+    <g class="t-body">
+      <path d="M54 216 Q54 188 84 188 L316 188 Q346 188 346 216 L346 256 Q346 276 326 276 L74 276 Q54 276 54 256 Z" fill="#FF4F8B" stroke="#17181C" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M58 244 L342 244 L342 256 Q342 272 326 272 L74 272 Q58 272 58 256 Z" fill="#E03A75"/>
+      <rect x="72" y="199" width="70" height="8" rx="4" fill="#FF8FB4"/>
+      <rect x="150" y="199" width="12" height="8" rx="4" fill="#FF8FB4"/>
+      <!-- front wheel + fender -->
+      <g transform="translate(200 292)">
+        <rect x="-25" y="-34" width="50" height="68" rx="16" fill="#17181C"/>
+        <g clip-path="url(#tk-wf)"><g class="tread" stroke="#55565F" stroke-width="5" stroke-linecap="round">
+          <line x1="-30" x2="30" y1="-50" y2="-50"/><line x1="-30" x2="30" y1="-34" y2="-34"/><line x1="-30" x2="30" y1="-18" y2="-18"/><line x1="-30" x2="30" y1="-2" y2="-2"/><line x1="-30" x2="30" y1="14" y2="14"/><line x1="-30" x2="30" y1="30" y2="30"/><line x1="-30" x2="30" y1="46" y2="46"/>
+        </g></g>
+      </g>
+      <path d="M164 300 Q162 253 200 253 Q238 253 236 300 L224 300 Q224 267 200 267 Q176 267 176 300 Z" fill="#0F7B5F" stroke="#17181C" stroke-width="4.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- lamps (cheeks) -->
+    <g class="t-lamps">
+      <circle class="t-flash" cx="80" cy="230" r="15" fill="none" stroke="#F2A900" stroke-width="5"/>
+      <circle class="t-flash" cx="320" cy="230" r="15" fill="none" stroke="#F2A900" stroke-width="5"/>
+      <circle cx="80" cy="230" r="15" fill="#F2A900" stroke="#17181C" stroke-width="4"/>
+      <circle cx="80" cy="230" r="6.5" fill="#FFF3C4"/>
+      <circle cx="320" cy="230" r="15" fill="#F2A900" stroke="#17181C" stroke-width="4"/>
+      <circle cx="320" cy="230" r="6.5" fill="#FFF3C4"/>
+    </g>
+
+    <!-- mouth -->
+    <g class="t-mouth" transform="translate(200 230)">
+      <g class="m m-smile"><path d="M-27 -4 Q0 22 27 -4" fill="none" stroke="#17181C" stroke-width="6.5" stroke-linecap="round"/></g>
+      <g class="m m-grin" display="none"><path d="M-35 -8 Q0 -2 35 -8 Q31 24 0 26 Q-31 24 -35 -8Z" fill="#17181C" stroke="#17181C" stroke-width="4" stroke-linejoin="round"/><path d="M-22 -4 Q0 0 22 -4 L22 3 Q0 8 -22 3Z" fill="#FFFFFF"/><ellipse cx="0" cy="19" rx="14" ry="6.5" fill="#FF8FB4"/></g>
+      <g class="m m-ooh" display="none"><ellipse cx="0" cy="5" rx="12" ry="15" fill="#17181C"/><ellipse cx="0" cy="11" rx="7" ry="5" fill="#FF8FB4"/></g>
+      <g class="m m-yawn" display="none"><ellipse cx="0" cy="3" rx="22" ry="18" fill="#17181C"/><ellipse cx="0" cy="12" rx="14" ry="7" fill="#FF8FB4"/></g>
+    </g>
+
+    <!-- cabin: pillars, windscreen -->
+    <g class="t-cab">
+      <rect x="60" y="90" width="24" height="108" rx="6" fill="#0F7B5F" stroke="#17181C" stroke-width="4.5"/>
+      <rect x="316" y="90" width="24" height="108" rx="6" fill="#0F7B5F" stroke="#17181C" stroke-width="4.5"/>
+      <rect x="88" y="96" width="224" height="104" rx="20" fill="#FFE9B8" stroke="#17181C" stroke-width="5"/>
+      <path d="M104 106 L142 106 L112 142 L104 142Z" fill="#FFF6DA"/>
+    </g>
+
+    <!-- eyes layer -->
+    <g class="t-eyes">
+      <g class="t-brow t-browL" transform="translate(150 111)"><path d="M-21 3 Q0 -7 21 3" fill="none" stroke="#17181C" stroke-width="6.5" stroke-linecap="round"/></g>
+      <g class="t-brow t-browR" transform="translate(250 111)"><path d="M-21 3 Q0 -7 21 3" fill="none" stroke="#17181C" stroke-width="6.5" stroke-linecap="round"/></g>
+      <g class="t-eye t-eyeL" transform="translate(150 150)">
+        <g class="t-eyein"><circle r="32" fill="#FFFFFF"/>
+          <g clip-path="url(#tk-eclip)">
+            <g class="t-pup"><circle r="17" fill="#17181C"/><circle cx="-6" cy="-7" r="6.2" fill="#FFFFFF"/><circle cx="7" cy="7" r="3" fill="#FFFFFF"/></g>
+            <g class="t-lid" transform="translate(0 -74)"><rect x="-36" y="-36" width="72" height="72" fill="#FFE9B8"/><line x1="-36" x2="36" y1="36" y2="36" stroke="#17181C" stroke-width="5"/></g>
+          </g>
+          <circle r="32" fill="none" stroke="#17181C" stroke-width="5"/></g>
+      </g>
+      <g class="t-eye t-eyeR" transform="translate(250 150)">
+        <g class="t-eyein"><circle r="32" fill="#FFFFFF"/>
+          <g clip-path="url(#tk-eclip)">
+            <g class="t-pup"><circle r="17" fill="#17181C"/><circle cx="-6" cy="-7" r="6.2" fill="#FFFFFF"/><circle cx="7" cy="7" r="3" fill="#FFFFFF"/></g>
+            <g class="t-lid" transform="translate(0 -74)"><rect x="-36" y="-36" width="72" height="72" fill="#FFE9B8"/><line x1="-36" x2="36" y1="36" y2="36" stroke="#17181C" stroke-width="5"/></g>
+          </g>
+          <circle r="32" fill="none" stroke="#17181C" stroke-width="5"/></g>
+      </g>
+    </g>
+
+    <!-- roof, sign, flag -->
+    <g class="t-roof">
+      <g class="t-flagpt" transform="translate(70 36)">
+        <g class="t-flagwave">
+          <line x1="0" y1="0" x2="0" y2="-44" stroke="#17181C" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M2 -42 L40 -33 L2 -22Z" fill="#FF4F8B" stroke="#17181C" stroke-width="3.5" stroke-linejoin="round"/>
+          <circle cx="0" cy="-46" r="5.5" fill="#F2A900" stroke="#17181C" stroke-width="3.5"/>
+        </g>
+      </g>
+      <rect x="170" y="14" width="60" height="20" rx="3" fill="#17181C"/>
+      <rect x="162" y="6" width="76" height="26" rx="9" fill="#F2A900" stroke="#17181C" stroke-width="4"/>
+      <text x="200" y="25" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-weight="700" font-size="15" letter-spacing="1.5" fill="#17181C">BKK</text>
+      <path d="M28 98 Q28 38 94 33 L306 33 Q372 38 372 98 Q372 104 366 104 L34 104 Q28 104 28 98 Z" fill="#0F7B5F" stroke="#17181C" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M32 90 L368 90 L368 98 Q368 100 366 100 L34 100 Q32 100 32 98 Z" fill="#F2A900"/>
+      <rect x="64" y="46" width="96" height="8" rx="4" fill="#36A885"/>
+      <rect x="170" y="46" width="14" height="8" rx="4" fill="#36A885"/>
+    </g>
+  </g>
+</svg>
