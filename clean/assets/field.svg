@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="studio" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f7"/>
+      <stop offset="1" stop-color="#d8d8de"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 280) scale(700)">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="alu" x1="800" y1="210" x2="800" y2="790" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbfbfc"/>
+      <stop offset=".5" stop-color="#ececef"/>
+      <stop offset="1" stop-color="#d5d5db"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="800" y1="250" x2="800" y2="740" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1c20"/>
+      <stop offset="1" stop-color="#0c0d10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#studio)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <ellipse cx="800" cy="800" rx="380" ry="28" fill="#1d1d1f" opacity=".12"/>
+  <rect x="330" y="200" width="940" height="590" rx="36" fill="url(#alu)"/>
+  <rect x="354" y="224" width="892" height="542" rx="22" fill="url(#screen)"/>
+  <circle cx="800" cy="248" r="4" fill="#3a3a3c"/>
+  <g fill="#f4f0e8">
+    <rect x="560" y="390" width="210" height="10" rx="5" opacity=".95"/>
+    <rect x="560" y="428" width="480" height="6" rx="3" opacity=".55"/>
+    <rect x="560" y="452" width="440" height="6" rx="3" opacity=".45"/>
+    <rect x="560" y="476" width="460" height="6" rx="3" opacity=".4"/>
+    <rect x="560" y="500" width="300" height="6" rx="3" opacity=".32"/>
+  </g>
+  <rect x="560" y="560" width="72" height="8" rx="4" fill="#f4f0e8" opacity=".28"/>
+</svg>

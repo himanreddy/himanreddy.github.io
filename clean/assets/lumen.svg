@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="room" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7efe6"/>
+      <stop offset=".62" stop-color="#f0e2d4"/>
+      <stop offset="1" stop-color="#e4d0be"/>
+    </linearGradient>
+    <radialGradient id="day" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(480 180) rotate(68) scale(900 640)">
+      <stop offset="0" stop-color="#fff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="clay" x1="640" y1="420" x2="900" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0b39a"/>
+      <stop offset=".45" stop-color="#c86a4c"/>
+      <stop offset="1" stop-color="#8a3d2d"/>
+    </linearGradient>
+    <linearGradient id="card" x1="980" y1="340" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffcf8"/>
+      <stop offset="1" stop-color="#f3ece3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#room)"/>
+  <rect width="1600" height="1000" fill="url(#day)"/>
+  <ellipse cx="860" cy="830" rx="340" ry="22" fill="#6a4332" opacity=".13"/>
+  <g transform="rotate(-7 1090 520)">
+    <rect x="980" y="340" width="220" height="320" rx="2" fill="url(#card)"/>
+    <circle cx="1090" cy="438" r="26" stroke="#1d1d1f" stroke-width="1.4"/>
+    <circle cx="1090" cy="438" r="4" fill="#1d1d1f"/>
+    <rect x="1030" y="512" width="120" height="3" fill="#1d1d1f" opacity=".4"/>
+    <rect x="1054" y="530" width="72" height="2" fill="#1d1d1f" opacity=".22"/>
+    <rect x="1044" y="546" width="92" height="2" fill="#1d1d1f" opacity=".16"/>
+  </g>
+  <path fill="url(#clay)" d="M736 468c0 0-10 36-2 62 8 18 14 26 12 44-22 16-64 70-70 146-8 78 28 156 124 166 96-10 132-88 124-166-6-76-48-130-70-146-2-18 4-26 12-44 8-26-2-62-2-62H736z"/>
+  <ellipse cx="800" cy="470" rx="36" ry="11" fill="#f3c2ad"/>
+  <ellipse cx="800" cy="470" rx="22" ry="6" fill="#c46b52"/>
+  <path d="M768 530c6 70 8 130 4 190" stroke="#fff" stroke-opacity=".38" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="800" cy="842" rx="52" ry="9" fill="#7a3829" opacity=".55"/>
+  <ellipse cx="620" cy="790" rx="70" ry="16" fill="#d9b49a"/>
+  <ellipse cx="620" cy="782" rx="62" ry="12" fill="#f6e6d8"/>
+  <ellipse cx="620" cy="786" rx="40" ry="7" fill="#e7cbb6"/>
+</svg>

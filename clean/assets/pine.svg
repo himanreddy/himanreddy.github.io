@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="table" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24312b"/>
+      <stop offset="1" stop-color="#15201b"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 200) scale(760)">
+      <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="forest" x1="760" y1="250" x2="1120" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6e8f78"/>
+      <stop offset=".45" stop-color="#355646"/>
+      <stop offset="1" stop-color="#1a2b22"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="900" y1="160" x2="1180" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbf8f2"/>
+      <stop offset="1" stop-color="#efe8dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#table)"/>
+  <rect width="1600" height="1000" fill="url(#lamp)"/>
+  <g transform="rotate(-8 760 540)">
+    <rect x="390" y="210" width="620" height="780" rx="4" fill="#e7e0d4"/>
+  </g>
+  <g transform="rotate(3.5 980 500)">
+    <rect x="640" y="150" width="560" height="740" rx="4" fill="url(#paper)"/>
+    <rect x="700" y="220" width="440" height="280" fill="url(#forest)"/>
+    <ellipse cx="860" cy="360" rx="90" ry="28" fill="#fff" opacity=".18"/>
+    <path d="M760 430c40-50 70-20 110-60 20 40 28 70 20 110-40 10-80 6-130-50z" fill="#1c3328" opacity=".45"/>
+    <rect x="700" y="540" width="160" height="8" rx="1" fill="#1d1d1f" opacity=".75"/>
+    <rect x="700" y="568" width="420" height="4" fill="#1d1d1f" opacity=".22"/>
+    <rect x="700" y="586" width="390" height="4" fill="#1d1d1f" opacity=".16"/>
+    <rect x="700" y="604" width="410" height="4" fill="#1d1d1f" opacity=".14"/>
+    <rect x="700" y="622" width="280" height="4" fill="#1d1d1f" opacity=".12"/>
+    <rect x="700" y="668" width="48" height="6" fill="#1d1d1f" opacity=".45"/>
+  </g>
+</svg>

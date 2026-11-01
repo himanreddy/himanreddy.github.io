@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="800" y1="0" x2="800" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6f3ee"/>
+      <stop offset="0.55" stop-color="#e8e3db"/>
+      <stop offset="1" stop-color="#d8d2c8"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 140) rotate(70) scale(980 720)">
+      <stop offset="0" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sky" x1="800" y1="200" x2="800" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8f5f0"/>
+      <stop offset=".5" stop-color="#e6dfd4"/>
+      <stop offset="1" stop-color="#cfc3b3"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="800" y1="500" x2="800" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9bba9"/>
+      <stop offset="1" stop-color="#a89886"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="34" stdDeviation="26" flood-color="#1a1917" flood-opacity=".18"/>
+    </filter>
+    <clipPath id="photo">
+      <rect x="608" y="196" width="384" height="492"/>
+    </clipPath>
+  </defs>
+  <rect width="1600" height="960" fill="url(#wall)"/>
+  <rect width="1600" height="960" fill="url(#light)"/>
+  <ellipse cx="800" cy="812" rx="280" ry="18" fill="#1a1917" opacity=".08"/>
+  <g filter="url(#soft)">
+    <rect x="578" y="166" width="444" height="552" fill="#1c1c1e"/>
+  </g>
+  <g clip-path="url(#photo)">
+    <rect x="608" y="196" width="384" height="492" fill="url(#sky)"/>
+    <ellipse cx="800" cy="470" rx="220" ry="64" fill="#fff" opacity=".4"/>
+    <path d="M608 530c90-48 150-18 230-52 70-30 120-8 154 6v204H608V530z" fill="url(#hill)"/>
+    <path d="M608 590c110-28 170 18 250-16 58-24 100-6 134 8v158H608V590z" fill="#8d8072"/>
+  </g>
+</svg>
